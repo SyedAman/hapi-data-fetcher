@@ -4,7 +4,7 @@
   "description": "Node.js coding challenge for PG&E - MRAD",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
+    "start": "nodemon ./index.js",
     "test": "lab -v test/server.test.js"
   },
   "author": "",
@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@hapi/code": "^8.0.7",
-    "@hapi/lab": "^24.5.1"
+    "@hapi/lab": "^24.5.1",
+    "nodemon": "^2.0.15"
   }
 }
