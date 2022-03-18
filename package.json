@@ -1,0 +1,19 @@
+{
+  "name": "pge_node_challenge",
+  "version": "1.0.0",
+  "description": "Node.js coding challenge for PG&E - MRAD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "lab -v test/server.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.7",
+    "@hapi/lab": "^24.5.1"
+  }
+}
